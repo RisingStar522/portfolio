@@ -10,7 +10,7 @@ import {GLTFLoader} from "three/examples/jsm/loaders/GLTFLoader"
 import Header from '../components/header/Header';
 
 const sendEmail = () => {    
-  window.open("mailto:darkrut22@gmail.com?subject=Contact");
+  window.open("mailto:brianyoung.luck@gmail.com?subject=Contact");
 };
 class Home extends React.Component<{},{}> { 
   
@@ -178,7 +178,7 @@ class Home extends React.Component<{},{}> {
                   <div className='text-lg md:text-36 font-medium'>
                     <Link href={'#'}>
                       <a className='hover:text-amber-500' onClick={()=>sendEmail()}>
-                        <div className=''>alexeu005@gmail.com</div>                
+                        <div className=''>brianyoung.luck@gmail.com</div>                
                       </a>
                     </Link>
                 </div>
@@ -201,7 +201,7 @@ class Home extends React.Component<{},{}> {
                         <FaDiscord/>
                       </a>
                     </Link> */}
-                    <Link href={'https://t.me/Alexeu005'}>
+                    <Link href={'https://t.me/RisingStar522'}>
                       <a target={'_blank'} className='hover:text-amber-500'>
                         <FaTelegram/>
                       </a>

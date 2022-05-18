@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 const Footer = ({}) => {
    
   const sendEmail = () => {    
-    window.open("mailto:alexeu005@gmail.com?subject=About Project");
+    window.open("mailto:brianyoung.luck@gmail.com?subject=About Project");
   };
   return (
     <div className="Footer bg-black border-t border-dashed w-full ">
@@ -29,7 +29,7 @@ const Footer = ({}) => {
         </Link>
       </div> */}
       <div className='w-full text-center text-white p-2'>
-        © Copyright 2020 By <span className='text-yellow-500'>Andrey Erhsov</span>
+        © Copyright 2020 By <span className='text-yellow-500'>Brian Young</span>
       </div>
     </div>
   )
