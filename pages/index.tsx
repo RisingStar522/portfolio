@@ -219,7 +219,7 @@ class Home extends React.Component<{}> {
               </div>
             </div>
           </div>
-          <div id='index-canvas-container' className='absolute w-full h-full top-0 left-0' style={{zIndex:'-100'}}></div>          
+          {/* <div id='index-canvas-container' className='absolute w-full h-full top-0 left-0' style={{zIndex:'-100'}}></div>           */}
           <Header/>
       </>
     );
